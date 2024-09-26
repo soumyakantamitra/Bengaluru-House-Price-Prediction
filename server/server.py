@@ -28,6 +28,7 @@ def predict_home_price():
 
     return response
 
+util.load_saved_artifacts()
 
 if __name__ == "__main__":
     print("Starting Python Flask Server for House Price Prediction")
